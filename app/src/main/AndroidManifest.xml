@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Latihan">
         <activity
+            android:name=".AlbumpmrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlbumpramukaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlbumhutriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FutsalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PmrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PramukaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OsisActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
@@ -22,22 +43,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".GuruActivity"
+            android:name=".guruActivity"
             android:exported="false" />
         <activity
-            android:name=".GaleriActivity"
+            android:name=".galeriActivity"
             android:exported="false" />
         <activity
-            android:name=".FasilitasActivity"
+            android:name=".fasilitasActivity"
             android:exported="false" />
         <activity
-            android:name=".PerpusActivity"
+            android:name=".perpusActivity"
             android:exported="false" />
         <activity
-            android:name=".ProfilActivity"
+            android:name=".profilActivity"
             android:exported="false" />
         <activity
-            android:name=".EskulActivity"
+            android:name=".EkskulActivity"
             android:exported="false" />
         <activity
             android:name=".BackUpActivity"

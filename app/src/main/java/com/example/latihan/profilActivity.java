@@ -1,12 +1,12 @@
 package com.example.latihan;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.github.barteksc.pdfviewer.PDFView;
 
-public class ProfilActivity extends AppCompatActivity {
+public class profilActivity extends AppCompatActivity {
     private PDFView pdfView;
 
     @Override
@@ -17,6 +17,5 @@ public class ProfilActivity extends AppCompatActivity {
         pdfView = (PDFView) findViewById(R.id.pdfView);
 
         pdfView.fromAsset("profil.pdf").load();
-
     }
 }
